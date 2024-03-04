@@ -2,4 +2,4 @@
 
 # Binance's Futures Algotrading
 
-Customizable futures algorithmic trading bot
+Customizable algorithmic trading bot
