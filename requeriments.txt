@@ -1,5 +1,4 @@
 colorlog==6.8.2
-frozenlist==1.4.1
 numpy==1.26.4
 pandas==2.2.1
 python-binance==1.0.19
