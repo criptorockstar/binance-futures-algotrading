@@ -5,9 +5,9 @@ import warnings
 # Remove FutureWarning
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-# Configure colorlog
+# Configure color
 formatter = colorlog.ColoredFormatter(
-    '%(log_color)s%(levelname)s:%(message)s',
+    '%(log_color)s%(levelname)s%(reset)s %(message)s',
     log_colors={
         'DEBUG': 'cyan',
         'INFO': 'blue',

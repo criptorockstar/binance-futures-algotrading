@@ -1,1 +1,1 @@
-from charts.livechart import Livechart
+from charts.plotcandles import Plotcandles

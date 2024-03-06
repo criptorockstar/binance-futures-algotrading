@@ -8,3 +8,7 @@ class Config:
         self.api_key = os.environ.get('API_KEY')
         self.secret_key = os.environ.get('SECRET_KEY')
         self.SOCKET = 'wss://fstream.binance.com/ws/btcusdt@kline_1m'
+
+        # temporal hardcoded values
+        self.symbol = "btcusdt"
+        self.timeframe = "1m"
